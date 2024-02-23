@@ -1,1 +1,4 @@
-# TravelingSalesmanProblem
+# Traveling Salesman Problem(TSP)
+This repository regards a problem discussed in the International Physicists' Tournament, the Smart Water one. The problem statement is as follows: If you let water flow in a maze you end up with a physical maze-solving algorithm. Many other algorithms and computations can be done with physical systems. Create a water-based computer (without electronics) that solves an NP-hard problem.
+
+For my team, I came up with a solution imagining the spreading of water in a smooth horizontal plane for the TSP. Picturing the N cities for the problem as a random configuration of points in a rectangle, water would spread circularly until the puddle touched the nearest city. If we were to repeat this process N-1 times (since when there is only one city left the path is self evident), disregarding already visited cities, we would have a path.
